@@ -4,8 +4,8 @@ meta:
   engineVersion: 277.0.0
   forkId: ""
   forkVersion: ""
-  time: 08/13/2026 18:52:09
-  entityCount: 133
+  time: 08/13/2026 19:27:42
+  entityCount: 143
 maps:
 - 1
 grids:
@@ -322,6 +322,20 @@ entities:
       originalIconColor: '#FFFFFFFF'
       container: 64
       attachedEntity: invalid
+- proto: AirlockFreezer
+  entities:
+  - uid: 102
+    components:
+    - type: Transform
+      pos: 2.5,-4.5
+      parent: 2
+  - uid: 103
+    components:
+    - type: Transform
+      pos: 3.5,-4.5
+      parent: 2
+    - type: AccessReader
+      accessListsOriginal: []
 - proto: AirlockHeadOfPersonnelLocked
   entities:
   - uid: 49
@@ -331,7 +345,7 @@ entities:
       pos: 4.5,-9.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -1663.6804
+      secondsUntilStateChange: -3796.2844
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -345,7 +359,7 @@ entities:
     - type: AccessReader
       accessListsOriginal: []
     - type: Door
-      secondsUntilStateChange: -1670.0137
+      secondsUntilStateChange: -3802.6177
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -458,6 +472,41 @@ entities:
     components:
     - type: Transform
       pos: 3.5,-7.5
+      parent: 2
+  - uid: 118
+    components:
+    - type: Transform
+      pos: 5.5,-4.5
+      parent: 2
+  - uid: 138
+    components:
+    - type: Transform
+      pos: 6.5,-4.5
+      parent: 2
+  - uid: 139
+    components:
+    - type: Transform
+      pos: 2.5,-7.5
+      parent: 2
+  - uid: 140
+    components:
+    - type: Transform
+      pos: 1.5,-6.5
+      parent: 2
+  - uid: 141
+    components:
+    - type: Transform
+      pos: 1.5,-7.5
+      parent: 2
+  - uid: 142
+    components:
+    - type: Transform
+      pos: 1.5,-8.5
+      parent: 2
+  - uid: 143
+    components:
+    - type: Transform
+      pos: 9.5,-7.5
       parent: 2
 - proto: CarpetBlue
   entities:
@@ -736,13 +785,13 @@ entities:
       parent: 2
 - proto: GasPipeStraight
   entities:
-  - uid: 102
+  - uid: 100
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 4.5,-9.5
       parent: 2
-  - uid: 103
+  - uid: 101
     components:
     - type: Transform
       pos: 5.5,-11.5
@@ -804,17 +853,17 @@ entities:
       parent: 2
 - proto: GasVentPump
   entities:
-  - uid: 99
+  - uid: 31
     components:
     - type: Transform
       pos: 3.5,-8.5
       parent: 2
-  - uid: 100
+  - uid: 32
     components:
     - type: Transform
       pos: 9.5,-8.5
       parent: 2
-  - uid: 101
+  - uid: 99
     components:
     - type: Transform
       pos: 6.5,-6.5
@@ -837,6 +886,21 @@ entities:
     components:
     - type: Transform
       pos: 6.5,-4.5
+      parent: 2
+  - uid: 117
+    components:
+    - type: Transform
+      pos: 1.5,-6.5
+      parent: 2
+  - uid: 136
+    components:
+    - type: Transform
+      pos: 1.5,-7.5
+      parent: 2
+  - uid: 137
+    components:
+    - type: Transform
+      pos: 1.5,-8.5
       parent: 2
 - proto: LockerHeadOfPersonnelFilled
   entities:
@@ -1201,17 +1265,5 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 4.5,-7.5
-      parent: 2
-- proto: WoodDoor
-  entities:
-  - uid: 31
-    components:
-    - type: Transform
-      pos: 2.5,-4.5
-      parent: 2
-  - uid: 32
-    components:
-    - type: Transform
-      pos: 3.5,-4.5
       parent: 2
 ...
