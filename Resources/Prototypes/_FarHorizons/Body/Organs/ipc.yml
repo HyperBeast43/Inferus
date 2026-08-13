@@ -67,7 +67,7 @@
   parent: [BaseIPCOrganUnGibbable, BaseOrganHeart]
   name: micro pump
   suffix: IPC
-  description: "Circulates coolant in a sickingly familiar way."
+  description: "Circulates coolant in a sickeningly familiar way."
   components:
   - type: Sprite
     state: heart-on
