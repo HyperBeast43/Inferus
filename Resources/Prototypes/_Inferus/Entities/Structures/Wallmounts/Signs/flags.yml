@@ -1,0 +1,35 @@
+- type: entity
+  parent: BaseFlag
+  id: VoreFlag
+  name: vore flag
+  description: Whaaat? You wouldn't let the little guy starve, would you?
+  components:
+    - type: Sprite
+      state: vore_flag
+
+- type: entity
+  parent: BaseFlag
+  id: IntersexFlag
+  name: intersex flag
+  description: The sex inbetween… There is a sex inbetween.
+  components:
+    - type: Sprite
+      state: intersex_flag
+
+- type: entity
+  parent: BaseFlag
+  id: TransFlag
+  name: trans flag
+  description: Trans rights! And lefts. And wrongs.
+  components:
+    - type: Sprite
+      state: trans_flag
+
+- type: entity
+  parent: BaseFlag
+  id: DisabilityFlag
+  name: disability flag
+  description: (i'm too tired to write a witty description without worrying it's secretly discriminatory uhhhhhhhhhhhh)
+  components:
+    - type: Sprite
+      state: disability_flag
