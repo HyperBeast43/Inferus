@@ -791,7 +791,7 @@
     - DoorBumpOpener
   - type: NCTDataChip
 
-- type: entity
+- type: entity #Inferus - Overhaul
   parent: [ IDCardStandard, BaseMinorContraband ]
   id: MakeshiftID
   name: makeshift ID card
