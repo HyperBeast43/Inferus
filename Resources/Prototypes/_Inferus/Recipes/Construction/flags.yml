@@ -2,7 +2,7 @@
   id: CentCommFlag
   graph: Flags
   startNode: start
-  targetNode: BlankFlag
+  targetNode: CentCommFlag
   category: construction-category-structures
   placementMode: SnapgridCenter
   objectType: Structure
