@@ -29,7 +29,61 @@
   parent: BaseFlag
   id: DisabilityFlag
   name: disability flag
-  description: (i'm too tired to write a witty description without worrying it's secretly discriminatory uhhhhhhhhhhhh)
+  description: Not all disabilities are visible. No, that doesn't mean *you're* invisible.
   components:
     - type: Sprite
       state: disability_flag
+
+- type: entity
+  parent: BaseFlag
+  id: AceFlag
+  name: asexual flag
+  description: Got no fucks to give.
+  components:
+    - type: Sprite
+      state: ace_flag
+
+- type: entity
+  parent: BaseFlag
+  id: AroFlag
+  name: aromantic flag
+  description: Ooo, you lighting a candle or someth- oh, wait, there's an N.
+  components:
+    - type: Sprite
+      state: aro_flag
+
+- type: entity
+  parent: BaseFlag
+  id: BiFlag
+  name: bisexual flag
+  description: You know what'd be nice? A bicycle ride to the grocery store.
+  components:
+    - type: Sprite
+      state: bi_flag
+
+- type: entity
+  parent: BaseFlag
+  id: MoachFlag
+  name: moach flag
+  description: A flag depicting a mothroach. Look, she's even taking a little bite out of the fabric!
+  components:
+    - type: Sprite
+      state: moach_flag
+
+- type: entity
+  parent: BaseFlag
+  id: TemFlag
+  name: cy-yellow flag
+  description: The unofficial flag of eating construction paper. Popular among mothfolk!
+  components:
+    - type: Sprite
+      state: tem_flag
+
+- type: entity
+  parent: BaseFlag
+  id: LesbianFlag
+  name: lesbian flag
+  description: Wolowolowolowolowolowolowolowolowolo…
+  components:
+    - type: Sprite
+      state: lesbian_flag
