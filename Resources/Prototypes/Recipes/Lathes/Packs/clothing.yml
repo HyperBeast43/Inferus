@@ -239,6 +239,17 @@
   - ClothingNeckScarfStripedOrange
   - ClothingNeckScarfStripedBlack
   - ClothingNeckScarfStripedPurple
+  - ClothingNeckScarfSolidGreen #Inferus
+  - ClothingNeckScarfSolidBlue #Inferus
+  - ClothingNeckScarfSolidRed #Inferus
+  - ClothingNeckScarfSolidBrown #Inferus
+  - ClothingNeckScarfSolidLightBlue #Inferus
+  - ClothingNeckScarfSolidOrange #Inferus
+  - ClothingNeckScarfSolidBlack #Inferus
+  - ClothingNeckScarfSolidPurple #Inferus
+  - ClothingNeckScarfSolidGrey #Inferus
+  - ClothingNeckScarfSolidWhite #Inferus
+  - ClothingNeckScarfSolidYellow #Inferus
 
 - type: latheRecipePack
   id: Carpets

@@ -1,0 +1,120 @@
+- type: entity
+  parent: ClothingScarfBase
+  id: ClothingNeckScarfSolidRed
+  name: solid red scarf
+  description: A stylish solid red scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  components:
+    - type: Sprite
+      sprite: _Inferus/Clothing/Neck/Scarves/red.rsi
+    - type: Clothing
+      sprite: _Inferus/Clothing/Neck/Scarves/red.rsi
+
+- type: entity
+  parent: ClothingScarfBase
+  id: ClothingNeckScarfSolidBlue
+  name: solid blue scarf
+  description: A stylish solid blue scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  components:
+    - type: Sprite
+      sprite: _Inferus/Clothing/Neck/Scarves/blue.rsi
+    - type: Clothing
+      sprite: _Inferus/Clothing/Neck/Scarves/blue.rsi
+
+- type: entity
+  parent: ClothingScarfBase
+  id: ClothingNeckScarfSolidGreen
+  name: solid green scarf
+  description: A stylish solid green scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  components:
+    - type: Sprite
+      sprite: _Inferus/Clothing/Neck/Scarves/green.rsi
+    - type: Clothing
+      sprite: _Inferus/Clothing/Neck/Scarves/green.rsi
+
+- type: entity
+  parent: ClothingScarfBase
+  id: ClothingNeckScarfSolidBlack
+  name: solid black scarf
+  description: A stylish solid black scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  components:
+    - type: Sprite
+      sprite: _Inferus/Clothing/Neck/Scarves/black.rsi
+    - type: Clothing
+      sprite: _Inferus/Clothing/Neck/Scarves/black.rsi
+
+- type: entity
+  parent: ClothingScarfBase
+  id: ClothingNeckScarfSolidBrown
+  name: solid brown scarf
+  description: A stylish solid brown scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  components:
+    - type: Sprite
+      sprite: _Inferus/Clothing/Neck/Scarves/brown.rsi
+    - type: Clothing
+      sprite: _Inferus/Clothing/Neck/Scarves/brown.rsi
+
+- type: entity
+  parent: ClothingScarfBase
+  id: ClothingNeckScarfSolidLightBlue
+  name: solid light blue scarf
+  description: A stylish solid light blue scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  components:
+    - type: Sprite
+      sprite: _Inferus/Clothing/Neck/Scarves/lightblue.rsi
+    - type: Clothing
+      sprite: _Inferus/Clothing/Neck/Scarves/lightblue.rsi
+
+- type: entity
+  parent: ClothingScarfBase
+  id: ClothingNeckScarfSolidOrange
+  name: solid orange scarf
+  description: A stylish solid orange scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  components:
+    - type: Sprite
+      sprite: _Inferus/Clothing/Neck/Scarves/orange.rsi
+    - type: Clothing
+      sprite: _Inferus/Clothing/Neck/Scarves/orange.rsi
+
+- type: entity
+  parent: ClothingScarfBase
+  id: ClothingNeckScarfSolidPurple
+  name: solid purple scarf
+  description: A stylish solid purple scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  components:
+    - type: Sprite
+      sprite: _Inferus/Clothing/Neck/Scarves/purple.rsi
+    - type: Clothing
+      sprite: _Inferus/Clothing/Neck/Scarves/purple.rsi
+
+- type: entity
+  parent: ClothingScarfBase
+  id: ClothingNeckScarfSolidWhite
+  name: solid white scarf
+  description: A stylish solid white scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  components:
+    - type: Sprite
+      sprite: _Inferus/Clothing/Neck/Scarves/white.rsi
+    - type: Clothing
+      sprite: _Inferus/Clothing/Neck/Scarves/white.rsi
+
+- type: entity
+  parent: ClothingScarfBase
+  id: ClothingNeckScarfSolidYellow
+  name: solid yellow scarf
+  description: A stylish solid yellow scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  components:
+    - type: Sprite
+      sprite: _Inferus/Clothing/Neck/Scarves/yellow.rsi
+    - type: Clothing
+      sprite: _Inferus/Clothing/Neck/Scarves/yellow.rsi
+
+- type: entity
+  parent: ClothingScarfBase
+  id: ClothingNeckScarfSolidGrey
+  name: solid grey scarf
+  description: A stylish solid grey scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  components:
+    - type: Sprite
+      sprite: _Inferus/Clothing/Neck/Scarves/grey.rsi
+    - type: Clothing
+      sprite: _Inferus/Clothing/Neck/Scarves/grey.rsi

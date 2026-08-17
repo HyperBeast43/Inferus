@@ -1,0 +1,54 @@
+- type: latheRecipe
+  parent: BaseNeckClothingRecipe
+  id: ClothingNeckScarfSolidGreen
+  result: ClothingNeckScarfSolidGreen
+
+- type: latheRecipe
+  parent: BaseNeckClothingRecipe
+  id: ClothingNeckScarfSolidBlue
+  result: ClothingNeckScarfSolidBlue
+
+- type: latheRecipe
+  parent: BaseNeckClothingRecipe
+  id: ClothingNeckScarfSolidRed
+  result: ClothingNeckScarfSolidRed
+
+- type: latheRecipe
+  parent: BaseNeckClothingRecipe
+  id: ClothingNeckScarfSolidBrown
+  result: ClothingNeckScarfSolidBrown
+
+- type: latheRecipe
+  parent: BaseNeckClothingRecipe
+  id: ClothingNeckScarfSolidLightBlue
+  result: ClothingNeckScarfSolidLightBlue
+
+- type: latheRecipe
+  parent: BaseNeckClothingRecipe
+  id: ClothingNeckScarfSolidOrange
+  result: ClothingNeckScarfSolidOrange
+
+- type: latheRecipe
+  parent: BaseNeckClothingRecipe
+  id: ClothingNeckScarfSolidBlack
+  result: ClothingNeckScarfSolidBlack
+
+- type: latheRecipe
+  parent: BaseNeckClothingRecipe
+  id: ClothingNeckScarfSolidPurple
+  result: ClothingNeckScarfSolidPurple
+
+- type: latheRecipe
+  parent: BaseNeckClothingRecipe
+  id: ClothingNeckScarfSolidGrey
+  result: ClothingNeckScarfSolidGrey
+
+- type: latheRecipe
+  parent: BaseNeckClothingRecipe
+  id: ClothingNeckScarfSolidWhite
+  result: ClothingNeckScarfSolidWhite
+
+- type: latheRecipe
+  parent: BaseNeckClothingRecipe
+  id: ClothingNeckScarfSolidYellow
+  result: ClothingNeckScarfSolidYellow

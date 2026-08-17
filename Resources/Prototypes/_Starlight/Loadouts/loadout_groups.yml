@@ -54,6 +54,17 @@
   - ScarfPrideRainbow
   - ScarfPrideTrans
   - ScarfPrideLongBacon
+  - ScarfRedSolid #Inferus
+  - ScarfBlueSolid #Inferus
+  - ScarfGreenSolid #Inferus
+  - ScarfBlackSolid #Inferus
+  - ScarfBrownSolid #Inferus
+  - ScarfLightBlueSolid #Inferus
+  - ScarfOrangeSolid #Inferus
+  - ScarfPurpleSolid #Inferus
+  - ScarfGreySolid #Inferus
+  - ScarfWhiteSolid #Inferus
+  - ScarfYellowSolid #Inferus
 
 - type: loadoutGroup
   id: Pins
