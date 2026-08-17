@@ -176,7 +176,7 @@
         - to: InterdyneSyndicateFlag
           steps:
             - tag: SyndieCard
-              name: a syndicate business card
+              name: syndie_card
               icon:
                 sprite: Objects/Misc/bureaucracy.rsi
                 state: syndicate_card
