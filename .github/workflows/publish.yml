@@ -6,7 +6,8 @@ concurrency:
 
 on:
   workflow_dispatch:
-
+  schedule:
+   - cron: '0 0 * * *'
 jobs:
   build:
     name: Build & Package
@@ -43,39 +44,30 @@ jobs:
       - name: Package client
         run: dotnet run --project Content.Packaging client --no-wipe-release
 
-      - name: Publish version
-        run: Tools/publish_multi_request.py
-        env:
-          PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
-          GITHUB_REPOSITORY: ${{ vars.GITHUB_REPOSITORY }}
+      #- name: Publish version
+      #  run: Tools/publish_multi_request.py
+      #  env:
+      #    PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
+      #    GITHUB_REPOSITORY: ${{ vars.GITHUB_REPOSITORY }}
 
   update-changelog:
     name: Publish Changelogs
-#    needs: build
     runs-on: ubuntu-latest
     environment: prod
+    permissions:
+      contents: read
+      actions: read
+    needs: build
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Set up SSH
-        env:
-          ACTIONS_SSH_KEY: ${{ secrets.ACTIONS_SSH_KEY }}
-        run: |
-          mkdir -p ~/.ssh
-          echo "$ACTIONS_SSH_KEY" | tr -d '\r' > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-
-      - name: Test SSH Connection
-        run: ssh -T git@github.com || exit 0
-
       - name: Publish changelog (Discord)
-        continue-on-error: true
+        continue-on-error: false
         run: Tools/actions_changelogs_since_last_run.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ vars.GITHUB_REPOSITORY }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          DISCORD_CHANGELOG_ROLE_ID: "1308143973684088883"
+          CHANGELOG_FILE: "Resources/Changelog/InferusChangelog.yml"

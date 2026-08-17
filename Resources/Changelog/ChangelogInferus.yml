@@ -117,5 +117,44 @@ Entries:
   id: 4001
   time: '2026-08-15T04:22:31.000000+00:00'
   url: https://github.com/InferusSS14/Inferus/pull/40
+- author: Inferus
+  changes:
+  - message: Makeshift ID cards can now be put into PDAs and ID consoles, but have
+      their own icon by default (anyone with ShowJobIconsComponent can tell you have
+      one, and remember, it's minor contraband!).
+    type: Tweak
+  - message: Resprited the makeshift ID card to look more like the normal ID cards
+      (why was it facing left?????).
+    type: Tweak
+  id: 3901
+  time: '2026-08-15T16:03:47.000000+00:00'
+  url: https://github.com/InferusSS14/Inferus/pull/39
+- author: Inferus
+  changes:
+  - message: Changed workflow files. If it worked, this changelog should appear.
+    type: Tweak
+  id: 4301
+  time: '2026-08-16T03:11:25.000000+00:00'
+  url: https://github.com/InferusSS14/Inferus/pull/43
+- author: Inferus
+  changes:
+  - message: Added something.
+    type: Add
+  - message: Removed something.
+    type: Remove
+  - message: Changed something.
+    type: Tweak
+  - message: Fixed something.
+    type: Fix
+  id: 4401
+  time: '2026-08-16T03:33:39.000000+00:00'
+  url: https://github.com/InferusSS14/Inferus/pull/44
+- author: Tarazicon
+  changes:
+  - message: Reduced role playtime requirements and made HoS, Captain, and sAI whitelist-only.
+    type: Tweak
+  id: 4601
+  time: '2026-08-17T00:45:17.000000+00:00'
+  url: https://github.com/InferusSS14/Inferus/pull/46
 Order: -1
 
