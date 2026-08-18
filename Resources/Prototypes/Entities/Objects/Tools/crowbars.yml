@@ -28,6 +28,7 @@
     damage:
       types:
         Blunt: 8
+        Structural: 1
     soundHit:
       collection: MetalThud
   - type: Tool
