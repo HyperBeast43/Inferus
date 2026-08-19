@@ -83,8 +83,8 @@
         - map: [ "jumpsuit" ]
         - map: ["enum.HumanoidVisualLayers.Handcuffs"]
           color: "#ffffff"
-          sprite: _Inferus/Objects/misc/handcuffs.rsi/
-          state: guh
+          sprite: _Inferus/Objects/Misc/handcuffs.rsi
+          state: scurret
           visible: false
         - map: [ "id" ]
         - map: [ "gloves" ]
