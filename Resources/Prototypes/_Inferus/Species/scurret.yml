@@ -31,7 +31,7 @@
   id: MobScurretSprites
   sprites:
     Head: MobScurretHead
-    Eyes: MobHumanoidAnyMarking
+    Eyes: MobScurretEyes
     Chest: MobScurretTorso
     Tail: MobScurretTail
     LArm: MobScurretLArm
@@ -67,6 +67,12 @@
     Arms:
       points: 2
       required: false
+
+- type: humanoidBaseSprite
+  id: MobScurretEyes
+  baseSprite:
+    sprite: _Inferus/Mobs/Customization/Scurret/face.rsi
+    state: normal
 
 - type: humanoidBaseSprite
   id: MobScurretHead
