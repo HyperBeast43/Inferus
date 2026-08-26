@@ -504,16 +504,8 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
         if (roleLoadout == null)
             return;
 
-        foreach (var group in roleLoadout.SelectedLoadouts.Values)
-        {
-            foreach (var loadout in group)
-            {
-                if (!_prototypeManager.Resolve(loadout.Prototype, out var loadoutProto))
-                    continue;
-
-                _spawn.EquipStartingGear(uid, loadoutProto);
-            }
-        }
+        if (_prototypeManager.TryIndex(roleLoadout.Role, out var roleLoadoutPrototype))
+            _spawn.EquipRoleLoadout(uid, roleLoadout, roleLoadoutPrototype);
     }
 
     /// <summary>

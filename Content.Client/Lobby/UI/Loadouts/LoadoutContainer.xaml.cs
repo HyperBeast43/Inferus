@@ -66,4 +66,11 @@ public sealed partial class LoadoutContainer : BoxContainer
 
         _entManager.DeleteEntity(_entity);
     }
+
+    protected override void ExitedTree()
+    {
+        // Floof – avoid leaking the preview entity
+        _entManager.DeleteEntity(_entity);
+        base.ExitedTree();
+    }
 }
