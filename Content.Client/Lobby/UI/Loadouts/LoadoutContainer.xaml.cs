@@ -20,6 +20,8 @@ public sealed partial class LoadoutContainer : BoxContainer
 
     public Button Select => SelectButton;
 
+    public EntityUid? SpriteEntity => Sprite.Entity;
+
     public string? Text
     {
         get => SelectButton.Text;

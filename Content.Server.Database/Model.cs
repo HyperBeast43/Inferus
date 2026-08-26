@@ -582,9 +582,9 @@ namespace Content.Server.Database
         /// </summary>
         public string LoadoutName { get; set; } = string.Empty;
 
-        /*
-         * Insert extra data here like custom descriptions or colors or whatever.
-         */
+        [MaxLength(96)] public string? NameOverride { get; set; }
+        [MaxLength(512)] public string? DescriptionOverride { get; set; }
+        [MaxLength(9)] public string? ColorOverride { get; set; }
     }
 
     #endregion

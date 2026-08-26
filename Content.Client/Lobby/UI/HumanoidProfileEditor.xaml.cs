@@ -1450,6 +1450,8 @@ namespace Content.Client.Lobby.UI
                 ReloadPreview();
             };
 
+            OpenLoadoutFloof(jobProto, roleLoadout, roleLoadoutProto, session, collection);
+
             JobOverride = jobProto;
             ReloadPreview();
 
@@ -1507,6 +1509,8 @@ namespace Content.Client.Lobby.UI
                 Profile = Profile?.WithLoadout(roleLoadout);
                 ReloadPreview();
             };
+
+            OpenLoadoutFloof(null, roleLoadout, roleLoadoutProto, session, collection);
 
             AntagOverride = antagProto.ID;
             JobOverride = antagProto.PreviewStartingGear != null
