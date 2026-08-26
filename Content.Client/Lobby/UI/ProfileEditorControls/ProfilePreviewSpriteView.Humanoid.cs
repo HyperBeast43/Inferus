@@ -357,16 +357,9 @@ public sealed partial class ProfilePreviewSpriteView
 
         var spawnSys = EntMan.System<StationSpawningSystem>();
 
-        foreach (var group in roleLoadout.SelectedLoadouts.Values)
-        {
-            foreach (var loadout in group)
-            {
-                if (!_prototypeManager.TryIndex(loadout.Prototype, out var loadoutProto))
-                    continue;
-
-                spawnSys.EquipStartingGear(uid, loadoutProto);
-            }
-        }
+        // Floof – use EquipRoleLoadout so custom name/desc/color apply on the preview
+        if (_prototypeManager.TryIndex(roleLoadout.Role, out var roleLoadoutPrototype))
+            spawnSys.EquipRoleLoadout(uid, roleLoadout, roleLoadoutPrototype);
     }
 
     /// Starlight

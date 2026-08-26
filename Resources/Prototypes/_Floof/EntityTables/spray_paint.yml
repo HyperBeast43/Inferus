@@ -1,0 +1,26 @@
+- type: entityTable
+  id: SprayPaintTable
+  table: !type:GroupSelector
+    children:
+    # Common colors
+    - id: SprayPaintBlue
+      weight: 1
+    - id: SprayPaintRed
+      weight: 1
+    - id: SprayPaintGreen
+      weight: 1
+    - id: SprayPaintBlack
+      weight: 1
+    - id: SprayPaintOrange
+      weight: 1
+    - id: SprayPaintPurple
+      weight: 1
+    - id: SprayPaintWhite
+      weight: 1
+    # UNFUNNY?! UUUNFUNNYYYY???????
+    - id: FunnyPaint
+      weight: 0.35
+    - id: DeathPaint
+      weight: 0.2
+    - id: DeathPaintTwo
+      weight: 0.2

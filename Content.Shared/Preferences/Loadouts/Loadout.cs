@@ -19,6 +19,23 @@ public sealed partial class Loadout : IEquatable<Loadout>
         return Prototype.Equals(other.Prototype);
     }
 
+    // Floofstation
+    [DataField]
+    public string? NameOverride, DescriptionOverride, ColorOverride;
+
+    public bool HasCustomMetadata =>
+        NameOverride != null || DescriptionOverride != null || ColorOverride != null;
+
+    public Loadout() {}
+
+    public Loadout(Loadout copy)
+    {
+        Prototype = copy.Prototype;
+        NameOverride = copy.NameOverride;
+        DescriptionOverride = copy.DescriptionOverride;
+        ColorOverride = copy.ColorOverride;
+    }
+
     public override bool Equals(object? obj)
     {
         return ReferenceEquals(this, obj) || obj is Loadout other && Equals(other);

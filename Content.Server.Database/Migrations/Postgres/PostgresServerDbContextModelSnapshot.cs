@@ -21,7 +21,7 @@ namespace Content.Server.Database.Migrations.Postgres
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "10.0.0")
+                .HasAnnotation("ProductVersion", "10.0.6")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
@@ -1044,10 +1044,25 @@ namespace Content.Server.Database.Migrations.Postgres
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("ColorOverride")
+                        .HasMaxLength(9)
+                        .HasColumnType("character varying(9)")
+                        .HasColumnName("color_override");
+
+                    b.Property<string>("DescriptionOverride")
+                        .HasMaxLength(512)
+                        .HasColumnType("character varying(512)")
+                        .HasColumnName("description_override");
+
                     b.Property<string>("LoadoutName")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("loadout_name");
+
+                    b.Property<string>("NameOverride")
+                        .HasMaxLength(96)
+                        .HasColumnType("character varying(96)")
+                        .HasColumnName("name_override");
 
                     b.Property<int>("ProfileLoadoutGroupId")
                         .HasColumnType("integer")

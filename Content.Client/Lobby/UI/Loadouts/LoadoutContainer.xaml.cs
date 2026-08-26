@@ -20,6 +20,8 @@ public sealed partial class LoadoutContainer : BoxContainer
 
     public Button Select => SelectButton;
 
+    public EntityUid? SpriteEntity => Sprite.Entity;
+
     public string? Text
     {
         get => SelectButton.Text;
@@ -63,5 +65,12 @@ public sealed partial class LoadoutContainer : BoxContainer
             return;
 
         _entManager.DeleteEntity(_entity);
+    }
+
+    protected override void ExitedTree()
+    {
+        // Floof – avoid leaking the preview entity
+        _entManager.DeleteEntity(_entity);
+        base.ExitedTree();
     }
 }
