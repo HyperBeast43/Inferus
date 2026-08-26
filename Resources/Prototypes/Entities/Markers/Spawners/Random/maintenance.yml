@@ -111,6 +111,12 @@
         weight: 4
         tableId: RandomCDDisc
       # Goobstation - End
+      # Inferus - spray paint loot
+      - !type:NestedSelector
+        weight: 3
+        rolls: !type:RangeNumberSelector
+          range: 1, 3
+        tableId: SprayPaintTable
     # Uncommon Group
     - !type:GroupSelector
       weight: 23
@@ -296,6 +302,12 @@
       - id: PowerCellSmall
       - !type:NestedSelector
         tableId: AllSoapsTable
+      # Inferus - spray paint loot
+      - !type:NestedSelector
+        weight: 3.5
+        rolls: !type:RangeNumberSelector
+          range: 1, 4
+        tableId: SprayPaintTable
       - id: Wirecutter
       - id: Screwdriver
       - id: Wrench

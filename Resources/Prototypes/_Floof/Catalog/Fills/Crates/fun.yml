@@ -1,0 +1,42 @@
+- type: entity
+  id: CrateFunSprayPaints
+  name: spray paint crate
+  description: A crate filled with spray paint. Perfect for marking territory, art projects, or confusing the crew.
+  parent: CratePlastic
+  suffix: Spray Paint
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:AllSelector
+        children:
+        # Guaranteed specialty cans
+        - id: DeathPaint
+          amount: 2
+        - id: DeathPaintTwo
+          amount: 2
+        # Occasional pairs of standard colors
+        - id: SprayPaintBlue
+          amount: 2
+          prob: 0.33
+        - id: SprayPaintRed
+          amount: 2
+          prob: 0.33
+        - id: SprayPaintOrange
+          amount: 2
+          prob: 0.33
+        - id: SprayPaintBlack
+          amount: 2
+          prob: 0.33
+        - id: SprayPaintGreen
+          amount: 2
+          prob: 0.33
+        - id: SprayPaintPurple
+          amount: 2
+          prob: 0.33
+        - id: SprayPaintWhite
+          amount: 2
+          prob: 0.33
+        # Extra random cans from the maint table
+        - !type:NestedSelector
+          rolls: 3, 6
+          tableId: SprayPaintTable
