@@ -71,6 +71,8 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+  alternateTitles:
+  - job-alt-hop-manager
 
 - type: startingGear
   id: HoPGear

@@ -14,6 +14,9 @@
   - !type:GiveItemOnHolidaySpecial
     holiday: GarbageDay
     prototype: WeaponRevolverInspector
+  alternateTitles:
+  - job-alt-janitor-custodial
+  - job-alt-janitor-sanitation
 
 - type: startingGear
   id: JanitorGear

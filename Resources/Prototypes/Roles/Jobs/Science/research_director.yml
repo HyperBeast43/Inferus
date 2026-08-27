@@ -38,6 +38,9 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+  alternateTitles:
+  - job-alt-rd-mysta
+  - job-alt-rd-lead
 
 - type: startingGear
   id: ResearchDirectorGear

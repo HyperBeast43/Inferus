@@ -11,6 +11,8 @@
   - Maintenance
   - Service # Starlight
   - Clown # Starlight
+  alternateTitles:
+  - job-alt-clown-entertainer
   special:
   - !type:AddComponentSpecial
     components:
@@ -32,6 +34,7 @@
       - HonkNeutral
   - !type:AddImplantSpecial
     implants: [ SadTromboneImplant ]
+
 
 - type: startingGear
   id: ClownGear

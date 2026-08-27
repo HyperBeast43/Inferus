@@ -20,6 +20,8 @@
     - type: MimePowers
       preventWriting: true
     - type: FrenchAccent
+  alternateTitles:
+  - job-alt-mime-performer
 
 - type: startingGear
   id: MimeGear

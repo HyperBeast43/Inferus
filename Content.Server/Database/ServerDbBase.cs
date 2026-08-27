@@ -55,6 +55,7 @@ namespace Content.Server.Database
                 .Include(p => p.Profiles).ThenInclude(h => h.Jobs)
                 .Include(p => p.Profiles).ThenInclude(h => h.Antags)
                 .Include(p => p.Profiles).ThenInclude(h => h.Traits)
+                .Include(p => p.Profiles).ThenInclude(h => h.JobTitles)
                 .Include(p => p.Profiles) // Starlight
                     .ThenInclude(h => h.StarLightProfile) // Starlight
                 .Include(p => p.Profiles).ThenInclude(h => h.CharacterInfo)// Starlight
@@ -121,6 +122,7 @@ namespace Content.Server.Database
                 .Include(p => p.Jobs)
                 .Include(p => p.Antags)
                 .Include(p => p.Traits)
+                .Include(p => p.JobTitles)
                 .Include(p => p.Loadouts)
                     .ThenInclude(l => l.Groups)
                     .ThenInclude(group => group.Loadouts)
@@ -392,6 +394,17 @@ namespace Content.Server.Database
                 humanoid = humanoid.WithCDCharacterRecords(PlayerProvidedCharacterRecords.DefaultRecords()); // Seed with empty records when nothing has been saved yet
             }
 
+            // Inferus – alternate job titles
+            if (profile.JobTitles is { Count: > 0 })
+            {
+                foreach (var entry in profile.JobTitles)
+                {
+                    if (string.IsNullOrEmpty(entry.JobName) || string.IsNullOrEmpty(entry.TitleLoc))
+                        continue;
+                    humanoid = humanoid.WithJobTitle(entry.JobName, entry.TitleLoc);
+                }
+            }
+
             return humanoid;
             // Cosmatic Drift Record System-end
         }
@@ -459,6 +472,19 @@ namespace Content.Server.Database
                 humanoid.TraitPreferences
                         .Select(t => new Trait { TraitName = t })
             );
+
+            // Inferus – alternate job titles
+            profile.JobTitles.Clear();
+            profile.JobTitles.AddRange(
+                humanoid.JobTitles
+                    .Where(kv => !string.IsNullOrEmpty(kv.Value))
+                    .Select(kv => new ProfileJobTitle
+                    {
+                        JobName = kv.Key,
+                        TitleLoc = kv.Value,
+                    })
+            );
+
             // Cosmatic Drift Record System-start: Persist CD record updates back onto the database profile
             profile.CDProfile ??= new CDModel.CDProfile(); // Ensure the EF entity exists before serializing records
             var storedRecords = humanoid.CDCharacterRecords ?? PlayerProvidedCharacterRecords.DefaultRecords();

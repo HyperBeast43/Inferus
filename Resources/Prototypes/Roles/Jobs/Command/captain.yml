@@ -34,6 +34,9 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+  alternateTitles:
+  - job-alt-captain-commander
+  - job-alt-captain-director
 
 - type: startingGear
   id: CaptainGear

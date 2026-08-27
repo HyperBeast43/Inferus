@@ -17,6 +17,9 @@
   - !type:GiveItemOnHolidaySpecial
     holiday: FourTwenty
     prototype: CannabisSeeds
+  alternateTitles:
+  - job-alt-botanist-hydro
+  - job-alt-botanist-gardener
 
 - type: startingGear
   id: BotanistGear

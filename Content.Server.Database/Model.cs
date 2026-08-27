@@ -56,6 +56,9 @@ namespace Content.Server.Database
             modelBuilder.Entity<Profile>()
                 .HasIndex(p => new { p.Slot, PrefsId = p.PreferenceId })
                 .IsUnique();
+            modelBuilder.Entity<ProfileJobTitle>() // Inferus
+                .HasIndex(t => new { t.ProfileId, t.JobName })
+                .IsUnique();
 
             // Cosmatic Drift Record System-start: Link CD profile tables into the EF model so they persist with preferences
             modelBuilder.Entity<CDModel.CDProfile>()
@@ -458,6 +461,7 @@ namespace Content.Server.Database
         public List<Antag> Antags { get; } = new();
         public List<Trait> Traits { get; } = new();
         public List<ProfileRoleLoadout> Loadouts { get; } = new();
+        public List<ProfileJobTitle> JobTitles { get; } = new();
         public int PreferenceId { get; set; }
         public Preference Preference { get; set; } = null!;
         public StarLightModel.StarLightProfile? StarLightProfile { get; set; } // Starlight
@@ -471,6 +475,24 @@ namespace Content.Server.Database
         public int ProfileId { get; set; }
 
         public string JobName { get; set; } = null!;
+    }
+
+    /// <summary>
+    /// Inferus – selected alternate job title LocId for a job on a character profile
+    /// </summary>
+    public class ProfileJobTitle
+    {
+        public int Id { get; set; }
+
+        public int ProfileId { get; set; }
+        public Profile Profile { get; set; } = null!;
+
+        /// <summary>Job prototype ID (e.g. Captain).</summary>
+        public string JobName { get; set; } = null!;
+
+        /// <summary>LocId of the selected title (e.g. job-alt-captain-commander).</summary>
+        [MaxLength(256)]
+        public string TitleLoc { get; set; } = null!;
     }
 
     public class JobPriorityEntry

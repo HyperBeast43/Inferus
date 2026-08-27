@@ -19,6 +19,9 @@
   - !type:GiveItemOnHolidaySpecial
     holiday: BoxingDay
     prototype: BoxCardboard
+  alternateTitles:
+  - job-alt-cargo-logistics
+  - job-alt-cargo-deckhand
 
 - type: startingGear
   id: CargoTechGear
