@@ -19,6 +19,9 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+  alternateTitles:
+  - job-alt-security-corporate
+  - job-alt-security-guard
 
 - type: startingGear
   id: SecurityOfficerGear

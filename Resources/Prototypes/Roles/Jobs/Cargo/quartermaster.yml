@@ -42,6 +42,8 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+  alternateTitles:
+  - job-alt-qm-logistics
 
 - type: startingGear
   id: QuartermasterGear

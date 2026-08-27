@@ -16,6 +16,10 @@
   - External
   extendedAccess:
   - Atmospherics
+  alternateTitles:
+  - job-alt-engineer-technician
+  - job-alt-engineer-maintenance
+  - job-alt-engineer-nuclear
 
 - type: startingGear
   id: StationEngineerGear

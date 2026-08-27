@@ -17,6 +17,9 @@
   extendedAccess:
   - Hydroponics
   - Bar
+  alternateTitles:
+  - job-alt-chef-cook
+  - job-alt-chef-culinary
 
 - type: startingGear
   id: ChefGear

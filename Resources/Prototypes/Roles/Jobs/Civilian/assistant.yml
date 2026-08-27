@@ -8,6 +8,9 @@
   supervisors: job-supervisors-assistantmanager # Starlight
   access:
   - Maintenance
+  alternateTitles:
+  - job-alt-passenger-civilian
+  - job-alt-passenger-contractor
 
 - type: job # Just ignore it. It’s a database workaround.
   id: Passenger

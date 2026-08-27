@@ -166,6 +166,13 @@ namespace Content.Shared.Roles
         /// </summary>
         [DataField]
         public List<ProtoId<GuideEntryPrototype>>? Guides;
+
+        /// <summary>
+        /// Optional alternate display titles (LocIds).
+        /// The primary <see cref="Name"/> is always available; these are extra options.
+        /// </summary>
+        [DataField]
+        public List<LocId>? AlternateTitles;
     }
 
     /// <summary>

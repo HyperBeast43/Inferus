@@ -24,6 +24,9 @@
   - !type:GiveItemOnHolidaySpecial
     holiday: DoctorDay
     prototype: WehMedipen
+  alternateTitles:
+  - job-alt-doctor-physician
+  - job-alt-doctor-medic
 
 - type: startingGear
   id: DoctorGear

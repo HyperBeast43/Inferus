@@ -6,6 +6,7 @@ using Content.Shared.Forensics.Components;
 using Content.Shared.GameTicking;
 using Content.Shared.Inventory;
 using Content.Shared.PDA;
+using Content.Shared._Inferus.Roles;
 using Content.Shared.Preferences;
 using Content.Shared.Roles;
 using Content.Shared.StationRecords;
@@ -162,7 +163,7 @@ public sealed partial class StationRecordsSystem : SharedStationRecordsSystem
         {
             Name = name,
             Age = age,
-            JobTitle = jobPrototype.LocalizedName,
+            JobTitle = JobTitleHelpers.GetDisplayTitle(jobPrototype, profile), // Inferus
             JobIcon = jobPrototype.Icon,
             JobPrototype = jobId,
             Species = species,

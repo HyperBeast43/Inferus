@@ -17,6 +17,9 @@
   extendedAccess:
   - Robotics
   #endregion
+  alternateTitles:
+  - job-alt-scientist-researcher
+  - job-alt-scientist-labtech
 
 - type: startingGear
   id: ScientistGear
