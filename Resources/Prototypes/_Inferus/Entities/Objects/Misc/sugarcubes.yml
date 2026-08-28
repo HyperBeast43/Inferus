@@ -13,7 +13,7 @@
       food:
         maxVol: 5
         reagents:
-        - ReagentID: Sugar
+        - ReagentId: Sugar
           Quantity: 5
   - type: Sprite
     sprite: _Inferus/Objects/Misc/sugarcubes.rsi
@@ -55,3 +55,10 @@
   components:
   - type: Stack
     count: 10
+
+- type: stack
+  parent: BaseSmallStack
+  id: SugarCube
+  name: stack-sugarcube
+  icon: { sprite: /Textures/Objects/Materials/Sheets/other.rsi, state: sugarcube1 }
+  spawn: SugarCube
