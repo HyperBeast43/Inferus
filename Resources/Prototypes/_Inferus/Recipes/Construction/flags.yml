@@ -59,10 +59,10 @@
     - !type:WallmountCondition {}
 
 - type: construction
-  id: VoreFlagI
+  id: VoreFlag
   graph: Flags
   startNode: start
-  targetNode: VoreFlagI
+  targetNode: VoreFlag
   category: construction-category-structures
   placementMode: SnapgridCenter
   objectType: Structure
@@ -71,10 +71,10 @@
     - !type:WallmountCondition {}
 
 - type: construction
-  id: IntersexFlagI
+  id: IntersexFlag
   graph: Flags
   startNode: start
-  targetNode: IntersexFlagI
+  targetNode: IntersexFlag
   category: construction-category-structures
   placementMode: SnapgridCenter
   objectType: Structure
@@ -83,10 +83,10 @@
     - !type:WallmountCondition {}
 
 - type: construction
-  id: TransFlagI
+  id: TransFlag
   graph: Flags
   startNode: start
-  targetNode: TransFlagI
+  targetNode: TransFlag
   category: construction-category-structures
   placementMode: SnapgridCenter
   objectType: Structure
@@ -95,10 +95,10 @@
     - !type:WallmountCondition {}
 
 - type: construction
-  id: DisabilityFlagI
+  id: DisabilityFlag
   graph: Flags
   startNode: start
-  targetNode: DisabilityFlagI
+  targetNode: DisabilityFlag
   category: construction-category-structures
   placementMode: SnapgridCenter
   objectType: Structure
@@ -107,10 +107,10 @@
     - !type:WallmountCondition {}
 
 - type: construction
-  id: AceFlagI
+  id: AceFlag
   graph: Flags
   startNode: start
-  targetNode: AceFlagI
+  targetNode: AceFlag
   category: construction-category-structures
   placementMode: SnapgridCenter
   objectType: Structure
@@ -119,10 +119,10 @@
     - !type:WallmountCondition {}
 
 - type: construction
-  id: AroFlagI
+  id: AroFlag
   graph: Flags
   startNode: start
-  targetNode: AroFlagI
+  targetNode: AroFlag
   category: construction-category-structures
   placementMode: SnapgridCenter
   objectType: Structure
@@ -131,10 +131,10 @@
     - !type:WallmountCondition {}
 
 - type: construction
-  id: BiFlagI
+  id: BiFlag
   graph: Flags
   startNode: start
-  targetNode: BiFlagI
+  targetNode: BiFlag
   category: construction-category-structures
   placementMode: SnapgridCenter
   objectType: Structure
@@ -143,10 +143,10 @@
     - !type:WallmountCondition {}
 
 - type: construction
-  id: MoachFlagI
+  id: MoachFlag
   graph: Flags
   startNode: start
-  targetNode: MoachFlagI
+  targetNode: MoachFlag
   category: construction-category-structures
   placementMode: SnapgridCenter
   objectType: Structure
@@ -155,10 +155,10 @@
     - !type:WallmountCondition {}
 
 - type: construction
-  id: TemFlagI
+  id: TemFlag
   graph: Flags
   startNode: start
-  targetNode: TemFlagI
+  targetNode: TemFlag
   category: construction-category-structures
   placementMode: SnapgridCenter
   objectType: Structure
@@ -167,10 +167,10 @@
     - !type:WallmountCondition {}
 
 - type: construction
-  id: LesbianFlagI
+  id: LesbianFlag
   graph: Flags
   startNode: start
-  targetNode: LesbianFlagI
+  targetNode: LesbianFlag
   category: construction-category-structures
   placementMode: SnapgridCenter
   objectType: Structure
