@@ -8,14 +8,25 @@
 
 - type: entity
   parent: BaseFlagInferus
-  id: VoreFlag
+  id: MoachFlagI
+  name: mothroach flag
+  description: A flag depicting a mothroach. Look, she's even taking a little bite out of the fabric!
+  components:
+    - type: Sprite
+      state: moach_flag
+    - type: Construction
+      node: MoachFlagI
+
+- type: entity
+  parent: BaseFlagInferus
+  id: VoreFlagI
   name: vore flag
   description: Whaaat? You wouldn't let the little guy starve, would you?
   components:
     - type: Sprite
       state: vore_flag
     - type: Construction
-      node: VoreFlag
+      node: VoreFlagI
 
 - type: entity
   parent: BaseFlagInferus
@@ -30,88 +41,77 @@
 
 - type: entity
   parent: BaseFlagInferus
-  id: TransFlag
+  id: TransFlagI
   name: trans flag
   description: Trans rights! And lefts. And wrongs.
   components:
     - type: Sprite
       state: trans_flag
     - type: Construction
-      node: TransFlag
+      node: TransFlagI
 
 - type: entity
   parent: BaseFlagInferus
-  id: DisabilityFlag
+  id: DisabilityFlagI
   name: disability flag
   description: Not all disabilities are visible. No, that doesn't mean *you're* invisible.
   components:
     - type: Sprite
       state: disability_flag
     - type: Construction
-      node: DisabilityFlag
+      node: DisabilityFlagI
 
 - type: entity
   parent: BaseFlagInferus
-  id: AceFlag
+  id: AceFlagI
   name: asexual flag
   description: Got no fucks to give.
   components:
     - type: Sprite
       state: ace_flag
     - type: Construction
-      node: AceFlag
+      node: AceFlagI
 
 - type: entity
   parent: BaseFlagInferus
-  id: AroFlag
+  id: AroFlagI
   name: aromantic flag
   description: Ooo, you lighting a candle or someth- oh, wait, there's an N.
   components:
     - type: Sprite
       state: aro_flag
     - type: Construction
-      node: AroFlag
+      node: AroFlagI
 
 - type: entity
   parent: BaseFlagInferus
-  id: BiFlag
+  id: BiFlagI
   name: bisexual flag
   description: You know what'd be nice? A bicycle ride to the grocery store.
   components:
     - type: Sprite
       state: bi_flag
     - type: Construction
-      node: BiFlag
+      node: BiFlagI
 
 - type: entity
   parent: BaseFlagInferus
-  id: MoachFlag
-  name: mothroach flag
-  description: A flag depicting a mothroach. Look, she's even taking a little bite out of the fabric!
-  components:
-    - type: Sprite
-      state: moach_flag
-    - type: Construction
-      node: MoachFlag
-
-- type: entity
-  parent: BaseFlagInferus
-  id: TemFlag
+  id: TemFlagI
   name: cy-yellow flag
   description: The unofficial flag of eating construction paper. Popular among mothfolk!
   components:
     - type: Sprite
       state: tem_flag
     - type: Construction
-      node: TemFlag
+      node: TemFlagI
 
 - type: entity
   parent: BaseFlagInferus
-  id: LesbianFlag
+  id: LesbianFlagI
   name: lesbian flag
   description: Wolowolowolowolowolowolowolowolowolo…
   components:
     - type: Sprite
       state: lesbian_flag
     - type: Construction
-      node: LesbianFlag
+      node: LesbianFlagI

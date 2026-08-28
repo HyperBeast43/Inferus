@@ -41,7 +41,7 @@
             - material: Cloth
               amount: 2
               doAfter: 1
-        - to: VoreFlag
+        - to: VoreFlagI
           completed:
             - !type:SnapToGrid {}
           steps:
@@ -55,56 +55,56 @@
             - material: Cloth
               amount: 2
               doAfter: 1
-        - to: TransFlag
+        - to: TransFlagI
           completed:
             - !type:SnapToGrid {}
           steps:
             - material: Cloth
               amount: 2
               doAfter: 1
-        - to: DisabilityFlag
+        - to: DisabilityFlagI
           completed:
             - !type:SnapToGrid {}
           steps:
             - material: Cloth
               amount: 2
               doAfter: 1
-        - to: AceFlag
+        - to: AceFlagI
           completed:
             - !type:SnapToGrid {}
           steps:
             - material: Cloth
               amount: 2
               doAfter: 1
-        - to: AroFlag
+        - to: AroFlagI
           completed:
             - !type:SnapToGrid {}
           steps:
             - material: Cloth
               amount: 2
               doAfter: 1
-        - to: BiFlag
+        - to: BiFlagI
           completed:
             - !type:SnapToGrid {}
           steps:
             - material: Cloth
               amount: 2
               doAfter: 1
-        - to: MoachFlag
+        - to: MoachFlagI
           completed:
             - !type:SnapToGrid {}
           steps:
             - material: Cloth
               amount: 2
               doAfter: 1
-        - to: TemFlag
+        - to: TemFlagI
           completed:
             - !type:SnapToGrid {}
           steps:
             - material: Cloth
               amount: 2
               doAfter: 1
-        - to: LesbianFlag
+        - to: LesbianFlagI
           completed:
             - !type:SnapToGrid {}
           steps:
@@ -204,8 +204,8 @@
           steps:
             - tool: Cutting
               doAfter: 1
-    - node: VoreFlag
-      entity: VoreFlag
+    - node: VoreFlagI
+      entity: VoreFlagI
       edges:
         - to: start
           completed:
@@ -227,8 +227,8 @@
           steps:
             - tool: Cutting
               doAfter: 1
-    - node: TransFlag
-      entity: TransFlag
+    - node: TransFlagI
+      entity: TransFlagI
       edges:
         - to: start
           completed:
@@ -239,8 +239,8 @@
             - tool: Cutting
               doAfter: 1
 
-    - node: DisabilityFlag
-      entity: DisabilityFlag
+    - node: DisabilityFlagI
+      entity: DisabilityFlagI
       edges:
         - to: start
           completed:
@@ -250,31 +250,8 @@
           steps:
             - tool: Cutting
               doAfter: 1
-    - node: AceFlag
-      entity: AceFlag
-      edges:
-        - to: start
-          completed:
-            - !type:GivePrototype
-              prototype: MaterialCloth1
-              amount: 2
-          steps:
-            - tool: Cutting
-              doAfter: 1
-
-    - node: AroFlag
-      entity: AroFlag
-      edges:
-        - to: start
-          completed:
-            - !type:GivePrototype
-              prototype: MaterialCloth1
-              amount: 2
-          steps:
-            - tool: Cutting
-              doAfter: 1
-    - node: BiFlag
-      entity: BiFlag
+    - node: AceFlagI
+      entity: AceFlagI
       edges:
         - to: start
           completed:
@@ -285,8 +262,8 @@
             - tool: Cutting
               doAfter: 1
 
-    - node: MoachFlag
-      entity: MoachFlag
+    - node: AroFlagI
+      entity: AroFlagI
       edges:
         - to: start
           completed:
@@ -296,8 +273,8 @@
           steps:
             - tool: Cutting
               doAfter: 1
-    - node: TemFlag
-      entity: TemFlag
+    - node: BiFlagI
+      entity: BiFlagI
       edges:
         - to: start
           completed:
@@ -308,8 +285,31 @@
             - tool: Cutting
               doAfter: 1
 
-    - node: LesbianFlag
-      entity: LesbianFlag
+    - node: MoachFlagI
+      entity: MoachFlagI
+      edges:
+        - to: start
+          completed:
+            - !type:GivePrototype
+              prototype: MaterialCloth1
+              amount: 2
+          steps:
+            - tool: Cutting
+              doAfter: 1
+    - node: TemFlagI
+      entity: TemFlagI
+      edges:
+        - to: start
+          completed:
+            - !type:GivePrototype
+              prototype: MaterialCloth1
+              amount: 2
+          steps:
+            - tool: Cutting
+              doAfter: 1
+
+    - node: LesbianFlagI
+      entity: LesbianFlagI
       edges:
         - to: start
           completed:
