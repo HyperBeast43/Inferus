@@ -1,0 +1,60 @@
+- type: entity
+  name: sugar cube(s)
+  parent: BaseItem
+  id: SugarCube
+  description: You could build a tiny house with these.
+  components:
+  - type: SolutionSpiker
+    sourceSolution: food
+  - type: Extractable
+    grindableSolutionName: food
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 5
+        reagnets:
+        - ReagentID: Sugar
+          Quantity: 5
+  - type: Sprite
+    sprite: _Inferus/Objects/Misc/sugarcubes.rsi
+    state: sugarcube1
+    layers:
+    - state: sugarcube1
+      map: ["base"]
+  - type: Item
+    sprite: _Inferus/Objects/Misc/sugarcubes.rsi
+    size: Tiny
+  - type: Appearance
+  - type: Tag
+    tags:
+    - SugarCube
+  - type: UserInterface
+    interfaces:
+      enum.StackCustomSplitUiKey.Key:
+        type: StackCustomSplitBoundUserInterface
+  - type: Stack
+    count: 1
+    stackType: SugarCube
+    baseLayer: base
+    layerStates:
+    - sugarcube1
+    - sugarcube2
+    - sugarcube3
+    - sugarcube4
+    - sugarcube5
+    - sugarcube6
+    - sugarcube7
+    - sugarcube8
+    - sugarcube9
+    - sugarcube10
+    layerFunction: Threshold
+  - type: StackLayerThreshold
+    thresholds: [2,3,4,5,6,7,8,9,10]
+
+- type: entity
+  parent: SugarCube
+  id: SugarCube10
+  suffix: 10
+  components:
+  - type: Stack
+    count: 10

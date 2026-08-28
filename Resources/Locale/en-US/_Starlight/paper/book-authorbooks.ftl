@@ -37,7 +37,7 @@ book-text-more-conspiracies = [bold] Forward from the author:[/bold] Congratulat
         Stellar Vanguard Solutions veterans initially formed the main body of opposition against the new NanoTrasen & Central Command partnership! They are the reason that Giggles-at-Crime has returned!
 
 book-text-clown-mime-war = In the early 2300s the Trans-Solar Federation (TSF) continued to grow into the vast interstellar entity that it's founders dreamed it would be, but the disturbing discoveries about Clowns and Mimes continued to mount.
-        While neither the Mothpeople or Diona had an active population of Clowns or Mimes, their historical records indicated vast Clown and Mime cults in their ancient pasts.
+        While neither the Mothfolk or Diona had an active population of Clowns or Mimes, their historical records indicated vast Clown and Mime cults in their ancient pasts.
         With advanced scanning technology provided by the TSF, an ancient temple was unearthed buried deep under layers of basalt on the Dionae homeworld. A temple seemingly dedicated to some sort of Clown-like deity.
         Knowledge of this propagated rapidly across the TSF, with many Clowns of all species calling a vote for what to name this deity.
         During the Gathering of the Floppy, the High Clown Giggles-At-Crimes had a seizure in the middle of the opening freestyle rap ceremony, loudly proclaiming their deity to be "The Honkmother".

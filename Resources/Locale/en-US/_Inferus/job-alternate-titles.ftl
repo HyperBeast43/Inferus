@@ -34,6 +34,7 @@ job-alt-mime-performer = Performance Artist
 
 job-alt-chef-cook = Cook
 job-alt-chef-culinary = Culinary Specialist
+job-alt-chef-butcher = Butcher
 
 job-alt-botanist-hydro = Hydroponics Technician
 job-alt-botanist-gardener = Gardener
