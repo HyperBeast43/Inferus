@@ -1,10 +1,14 @@
 - type: entity
   save: false
-  name: Wistful Dreams
+  name: Urist McWawa (Wistful Dreams)
   id: MobPlayerScurret
   parent: [ MobBaseAncestor, BaseSpeciesPickupable ] #Starlight - give the scurret uppies.
   description: A scurret, hailing from Planet Wawa. This one's here full-time!
   components:
+  - type: HTN #we don't want the NPC ai to take over
+    enabled: false
+    rootTask:
+      task: IdleCompound
   - type: Sprite
     layers: []
   - type: MobThresholds
@@ -12,6 +16,11 @@
       0: Alive
       60: Critical
       125: Dead
+  - type: Item
+    sprite: _Inferus/Objects/Misc/sugarcubes.rsi
+    size: Huge
+    shape:
+    - 0,0,3,3
   - type: Temperature
     currentTemperature: 310.15
     specificHeat: 42

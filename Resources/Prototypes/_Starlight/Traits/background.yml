@@ -119,15 +119,15 @@
   category: BackgroundTraits
   cost: 0
   effects:
-    - !type:OverrideCompsEffect
-      components:
-        - type: LanguageKnowledge
-          speaks:
-            - ScurretSign
-          understands:
-            - ScurretSign
-    - !type:SpawnItemInHandEffect
-      item: TranslatorIterator
+#    - !type:OverrideCompsEffect
+#      components:
+#        - type: LanguageKnowledge
+#          speaks:
+#            - ScurretSign
+#          understands:
+#            - ScurretSign
+#    - !type:SpawnItemInHandEffect
+#      item: TranslatorIterator
     - !type:BackgroundEffect
       background: Iterator
 

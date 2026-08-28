@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<Document>
+  # Scurrets
+
+  <Box>
+    <GuideEntityEmbed Entity="MobPlayerScurret" Caption="" />
+  </Box>
+
+  [color=#ffa500]Warning! This species is not recommended for new players due to major gameplay changes![/color]
+
+  alan please add details
+
+    ## Racial Features
+
+    - Only have one usable hand.
+    - Can't wear shoes.
+    - Fall into crit at [color=red]60[/color] and dead at [color=red]125[/color].
+    - [color=grey]someone PLEASE buff player scurrets once they aren't jank as hell, they are STRUGGLING[/color]
+    - (unimplemented) Can craft 2 meteal rods into a throwable spear.
+    - Run pretty damn fast.
+    - Pettable!
+    - Deal [color=red]10[/color] piercing damage with their bite.
+    - Can fit in a backpack!
+
+</Document>

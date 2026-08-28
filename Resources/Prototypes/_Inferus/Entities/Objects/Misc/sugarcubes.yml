@@ -12,7 +12,7 @@
     solutions:
       food:
         maxVol: 5
-        reagnets:
+        reagents:
         - ReagentID: Sugar
           Quantity: 5
   - type: Sprite
@@ -25,9 +25,6 @@
     sprite: _Inferus/Objects/Misc/sugarcubes.rsi
     size: Tiny
   - type: Appearance
-  - type: Tag
-    tags:
-    - SugarCube
   - type: UserInterface
     interfaces:
       enum.StackCustomSplitUiKey.Key:
