@@ -8,7 +8,6 @@
   markingLimits: MobScurretMarkingLimits
   dollPrototype: AppearanceScurret
   skinColoration: Hues
-  eyeColoration: Hues
   maleFirstNames: NamesFirstScurret
   femaleFirstNames: NamesFirstScurret
   lastNames: NamesLastScurret

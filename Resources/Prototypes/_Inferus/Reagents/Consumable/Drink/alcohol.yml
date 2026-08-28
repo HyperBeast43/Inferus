@@ -8,10 +8,30 @@
   color: "#f2cc9e"
   metamorphicChangeColor: true
   metabolisms:
-    Drink:
+    Digestion:
+      metabolites:
+        Ethanol: 0.4
+    # starlight - dwarf drink effects
       effects:
-        - !type:SatiateThirst
-          factor: 2
-        - !type:AdjustReagent
-          reagent: Ethanol
-          amount: 0.2
+      - !type:ModifyStatusEffect
+        effectProto: BonusArmorDragonCum
+        time: 3
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Dwarf ]
+    # end starlight
+
+- type: entity
+  parent: BonusArmorDwarfGeneric
+  id: BonusArmorDragonCum
+  name: 5% resistance to Caustic damage
+  components:
+  - type: BonusArmorStatusEffect
+    modifiers:
+      coefficients:
+        Caustic: 0.95
+
+  - type: SoundStatusEffect
+    startSound:
+      path: /Audio/_Starlight/Magic/dwarf-buff-generic.ogg
+
