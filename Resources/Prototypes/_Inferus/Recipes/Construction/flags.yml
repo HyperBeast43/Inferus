@@ -71,10 +71,10 @@
     - !type:WallmountCondition {}
 
 - type: construction
-  id: IntersexFlag
+  id: IntersexFlagI
   graph: Flags
   startNode: start
-  targetNode: IntersexFlag
+  targetNode: IntersexFlagI
   category: construction-category-structures
   placementMode: SnapgridCenter
   objectType: Structure

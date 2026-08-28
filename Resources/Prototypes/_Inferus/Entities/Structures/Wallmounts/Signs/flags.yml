@@ -30,14 +30,14 @@
 
 - type: entity
   parent: BaseFlagInferus
-  id: IntersexFlag
+  id: IntersexFlagI
   name: intersex flag
   description: The sex inbetween… There is a sex inbetween.
   components:
     - type: Sprite
       state: intersex_flag
     - type: Construction
-      node: IntersexFlag
+      node: IntersexFlagI
 
 - type: entity
   parent: BaseFlagInferus

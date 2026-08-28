@@ -48,7 +48,7 @@
             - material: Cloth
               amount: 2
               doAfter: 1
-        - to: IntersexFlag
+        - to: IntersexFlagI
           completed:
             - !type:SnapToGrid {}
           steps:
@@ -216,8 +216,8 @@
             - tool: Cutting
               doAfter: 1
 
-    - node: IntersexFlag
-      entity: IntersexFlag
+    - node: IntersexFlagI
+      entity: IntersexFlagI
       edges:
         - to: start
           completed:
