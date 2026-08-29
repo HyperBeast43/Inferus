@@ -46,6 +46,7 @@
   - type: Speech
     speechVerb: Wawa
     speechSounds: Wawa
+    allowedEmotes: ['Thump']
   - type: TypingIndicator
     proto: moth
   - type: Emoting
@@ -156,6 +157,9 @@
     species: Scurret
   - type: NameIdentifier
     group: null
+  - type: Body
+    prototype: Scurret
+    requiredLegs: 2
 
 - type: body
   id: Scurret
