@@ -14,6 +14,8 @@
   components:
   - type: Sprite
     state: blank_flag
+  - type: Construction #Inferus
+    node: BlankFlag
 
 - type: entity
   parent: BaseFlag
@@ -23,6 +25,8 @@
   components:
   - type: Sprite
     state: NT_flag
+  - type: Construction #Inferus
+    node: NTFlag
 
 - type: entity
   parent: BaseFlag
@@ -32,6 +36,8 @@
   components:
   - type: Sprite
     state: syndie_flag
+  - type: Construction #Inferus
+    node: SyndieFlag
 
 - type: entity
   parent: BaseFlag
@@ -41,6 +47,8 @@
   components:
   - type: Sprite
     state: lgbtq_flag
+  - type: Construction #Inferus
+    node: LGBTQFlag
 
 - type: entity
   parent: BaseFlag
@@ -50,3 +58,5 @@
   components:
   - type: Sprite
     state: pirate_flag
+  - type: Construction #Inferus
+    node: PirateFlag
