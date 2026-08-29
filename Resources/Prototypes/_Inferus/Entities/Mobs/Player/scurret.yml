@@ -1,6 +1,7 @@
 - type: entity
   save: false
   name: Urist McWawa (Wistful Dreams)
+  suffix: ""
   id: MobPlayerScurret
   parent: [ MobBaseAncestor, BaseSpeciesPickupable ] #Starlight - give the scurret uppies.
   description: A scurret, hailing from Planet Wawa. This one's here full-time!
@@ -16,6 +17,7 @@
       sprite: Objects/Misc/handcuffs.rsi
       state: body-overlay-2
       visible: false
+  - type: Absorbable
   - type: MobThresholds
     thresholds:
       0: Alive
@@ -155,3 +157,61 @@
   - type: NameIdentifier
     group: null
 
+- type: body
+  id: Scurret
+  name: "scurret"
+  root: torso
+  slots:
+    head:
+      part: HeadScurret
+      connections:
+      - torso
+      organs:
+        brain: OrganHumanBrain
+        eyes: OrganScurretEyes
+        tongue: OrganHumanTongue
+        eye_implant: null
+        nose_implant: null # 🌟Starlight🌟
+        brain_implant: null
+    torso:
+      part: TorsoScurret
+      connections:
+      - right arm
+      - left arm
+      - right leg
+      - left leg
+      organs:
+        heart: OrganAnimalHeart
+        lungs: OrganAnimalLungs
+        stomach: OrgananimalStomach
+        liver:  OrganAnimalLiver
+        kidneys: OrganAnimalKidneys
+        cavity: null
+    right arm:
+      part: RightArmScurret
+      connections:
+      - right hand
+    left arm:
+      part: LeftArmScurret
+      connections:
+      - left hand
+    right hand:
+      part: RightHandScurret
+      organs:
+        hand_implant: null
+    left hand:
+      part: LeftHandScurret
+      organs:
+        hand_implant: null
+    right leg:
+      part: RightLegScurret
+      connections:
+      - right foot
+    left leg:
+      part: LeftLegScurret
+      connections:
+      - left foot
+    right foot:
+      part: RightFootScurret
+    left foot:
+      part: LeftFootScurret
