@@ -43,7 +43,7 @@
     proto: moth
   - type: Emoting
   - type: InteractionPopup
-    successChance: 0.85
+    successChance: 1.0
     interactDelay: 2.25
     interactSuccessString: petting-success-scurret
     interactFailureString: petting-failure-scurret
@@ -133,7 +133,7 @@
       - AnomalyHost
       - NotLabelable
   - type: InventorySlots
-  - type: Edible
+  #- type: Edible # that's an RR if any mothroach or something finds your body. no
   - type: BodyEmotes
     soundsId: Scurret
   - type: Deathgasp
