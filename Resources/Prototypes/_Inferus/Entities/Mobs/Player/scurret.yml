@@ -17,7 +17,6 @@
       60: Critical
       125: Dead
   - type: Item
-    sprite: _Inferus/Objects/Misc/sugarcubes.rsi
     size: Huge
     shape:
     - 0,0,3,3
@@ -64,6 +63,13 @@
     damage:
       types:
         Piercing: 10
+  - type: Sprite
+    layers:
+    - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
+      color: "#ffffff"
+      sprite: Objects/Misc/handcuffs.rsi
+      state: body-overlay-2
+      visible: false
   - type: Inventory
     speciesId: scurret
     templateId: scurret

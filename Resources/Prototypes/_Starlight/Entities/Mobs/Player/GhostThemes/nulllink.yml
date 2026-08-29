@@ -11,5 +11,5 @@
   - !type:NullLinkPlayTimeRequirement
     server: TRIESTEPORT.main
     tracker: Overall
-    time: 36000 # 10h
+    time: 3600 # 1h
   category: NullLink

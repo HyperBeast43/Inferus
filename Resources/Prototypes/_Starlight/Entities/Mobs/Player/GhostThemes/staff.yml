@@ -82,9 +82,9 @@
       sprite: _Starlight/Mobs/Customization/GhostThemes/ghosts.rsi
       state: ghost-mothroach
     color: "#ffffff"
-  requirements:
-  - !type:DiscordRolesRequirement
-    requirement: TicketsAdministratorReq
+  #requirements:
+  #- !type:DiscordRolesRequirement
+  #  requirement: TicketsAdministratorReq
   category: Staff
 
 - type: ghostTheme
@@ -97,9 +97,9 @@
       sprite: _Starlight/Mobs/Customization/GhostThemes/ghosts.rsi
       state: ghost-scurret
     color: "#ffffff"
-  requirements:
-  - !type:DiscordRolesRequirement
-    requirement: TicketsAdministratorReq
+  #requirements:
+  #- !type:DiscordRolesRequirement
+  #  requirement: TicketsAdministratorReq
   category: Staff
 
 - type: ghostTheme
