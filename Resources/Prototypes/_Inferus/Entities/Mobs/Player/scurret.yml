@@ -160,6 +160,19 @@
   - type: Body
     prototype: Scurret
     requiredLegs: 2
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.25
+        density: 100
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+
 
 - type: body
   id: Scurret
@@ -172,7 +185,7 @@
       - torso
       organs:
         brain: OrganHumanBrain
-        eyes: OrganScurretEyes
+        eyes: OrganHumanEyes
         tongue: OrganHumanTongue
         eye_implant: null
         nose_implant: null # 🌟Starlight🌟
@@ -187,7 +200,7 @@
       organs:
         heart: OrganAnimalHeart
         lungs: OrganAnimalLungs
-        stomach: OrgananimalStomach
+        stomach: OrganAnimalStomach
         liver:  OrganAnimalLiver
         kidneys: OrganAnimalKidneys
         cavity: null
