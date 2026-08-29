@@ -10,7 +10,12 @@
     rootTask:
       task: IdleCompound
   - type: Sprite
-    layers: []
+    layers:
+    - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
+      color: "#ffffff"
+      sprite: Objects/Misc/handcuffs.rsi
+      state: body-overlay-2
+      visible: false
   - type: MobThresholds
     thresholds:
       0: Alive
@@ -63,13 +68,6 @@
     damage:
       types:
         Piercing: 10
-  - type: Sprite
-    layers:
-    - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
-      color: "#ffffff"
-      sprite: Objects/Misc/handcuffs.rsi
-      state: body-overlay-2
-      visible: false
   - type: Inventory
     speciesId: scurret
     templateId: scurret
