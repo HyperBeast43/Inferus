@@ -17,9 +17,9 @@
           Quantity: 5
   - type: Sprite
     sprite: _Inferus/Objects/Misc/sugarcubes.rsi
-    state: sugarcube1
+    state: sugarcubes1
     layers:
-    - state: sugarcube1
+    - state: sugarcubes1
       map: ["base"]
   - type: Item
     sprite: _Inferus/Objects/Misc/sugarcubes.rsi
