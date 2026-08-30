@@ -15,6 +15,7 @@
     - type: Sprite
       state: moach_flag
     - type: Construction
+      graph: Flags
       node: MoachFlag
 
 - type: entity
@@ -26,6 +27,7 @@
     - type: Sprite
       state: vore_flag
     - type: Construction
+      graph: Flags
       node: VoreFlag
 
 - type: entity
@@ -37,6 +39,7 @@
     - type: Sprite
       state: intersex_flag
     - type: Construction
+      graph: Flags
       node: IntersexFlag
 
 - type: entity
@@ -48,6 +51,7 @@
     - type: Sprite
       state: trans_flag
     - type: Construction
+      graph: Flags
       node: TransFlag
 
 - type: entity
@@ -59,6 +63,7 @@
     - type: Sprite
       state: disability_flag
     - type: Construction
+      graph: Flags
       node: DisabilityFlag
 
 - type: entity
@@ -70,6 +75,7 @@
     - type: Sprite
       state: ace_flag
     - type: Construction
+      graph: Flags
       node: AceFlag
 
 - type: entity
@@ -81,6 +87,7 @@
     - type: Sprite
       state: aro_flag
     - type: Construction
+      graph: Flags
       node: AroFlag
 
 - type: entity
@@ -92,6 +99,7 @@
     - type: Sprite
       state: bi_flag
     - type: Construction
+      graph: Flags
       node: BiFlag
 
 - type: entity
@@ -103,6 +111,7 @@
     - type: Sprite
       state: tem_flag
     - type: Construction
+      graph: Flags
       node: TemFlag
 
 - type: entity
@@ -114,4 +123,5 @@
     - type: Sprite
       state: lesbian_flag
     - type: Construction
+      graph: Flags
       node: LesbianFlag
