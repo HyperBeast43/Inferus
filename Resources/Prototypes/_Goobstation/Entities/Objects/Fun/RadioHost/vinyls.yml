@@ -1114,6 +1114,20 @@
     song:
       path: /Audio/_Goobstation/RadioStation/Vinyls/music/peakasshole.ogg
 
+- type: entity
+  parent: BaseVinylDisc
+  id: VinylSpaceAsshole
+  name: "vinyl: Space Asshole"
+  description: "The unofficial anthem of this god-forsaken station. By: Chris Remo" #Inferus Addition
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: label
+      color: red
+  - type: Vinyl
+    song:
+      path: /Audio/Lobby/space_asshole.ogg
 
   # Fart/Clown Songs
 - type: entity
@@ -1258,6 +1272,21 @@
   - type: Vinyl
     song:
       path: /Audio/_Goobstation/RadioStation/Vinyls/music/goonstation/Fart/eggshell.ogg
+
+- type: entity
+  parent: BaseVinylSlippery
+  id: VinylWarriorsHonk
+  name: "vinyl: Warriors Honk"
+  description: "A fast pace electronic tune. By: Goonstation" #SL  Addition
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: label
+      color: brown
+  - type: Vinyl
+    song:
+      path: /Audio/_Goobstation/RadioStation/Vinyls/music/goonstation/Fart/warriors_honk.ogg
 
 - type: entity
   parent: BaseVinylSlippery

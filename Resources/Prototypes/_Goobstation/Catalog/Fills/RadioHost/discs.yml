@@ -160,6 +160,7 @@
     - id: VinylSponsoredBySyndicate
     - id: VinylTraitorousIntent
     - id: VinylViolet
+    - id: VinylSpaceAsshole # Inferus Addition
     - id: VinylPeakAsshole # Space asshole but deep fried.
     weight: 0.05
 
