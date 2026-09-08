@@ -1287,18 +1287,3 @@
   - type: Vinyl
     song:
       path: /Audio/_Goobstation/RadioStation/Vinyls/music/goonstation/Fart/warriors_honk.ogg
-
-- type: entity
-  parent: BaseVinylSlippery
-  id: VinylWarriorsHonk
-  name: "vinyl: Warriors Honk"
-  description: "A fast pace electronic tune. By: Goonstation" #SL  Addition
-  components:
-  - type: Sprite
-    layers:
-    - state: default
-    - state: label
-      color: brown
-  - type: Vinyl
-    song:
-      path: /Audio/_Goobstation/RadioStation/Vinyls/music/goonstation/Fart/warriors_honk.ogg
