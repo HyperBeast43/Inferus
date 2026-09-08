@@ -27,5 +27,12 @@ Entries:
   id: 701
   time: '2026-09-03T01:55:13.000000+00:00'
   url: https://github.com/InferusSS14/Inferus/pull/7
+- author: baltdev
+  changes:
+  - message: Pulled the new version of handheld station radios from upstream.
+    type: Add
+  id: 1001
+  time: '2026-09-08T22:32:19.000000+00:00'
+  url: https://github.com/InferusSS14/Inferus/pull/10
 Order: -2
 
