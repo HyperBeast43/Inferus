@@ -34,5 +34,12 @@ Entries:
   id: 1001
   time: '2026-09-08T22:32:19.000000+00:00'
   url: https://github.com/InferusSS14/Inferus/pull/10
+- author: baltdev
+  changes:
+  - message: Add Space Asshole vinyl
+    type: Add
+  id: 1101
+  time: '2026-09-08T23:52:08.000000+00:00'
+  url: https://github.com/InferusSS14/Inferus/pull/11
 Order: -2
 
