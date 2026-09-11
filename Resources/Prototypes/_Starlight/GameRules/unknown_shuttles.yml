@@ -21,6 +21,7 @@
     - id: UnknownShuttleFireResponse
     - id: UnknownShuttleQuail
     - id: UnknownShuttleInquisitor
+    - id: UnknownShuttleEggshell #Inferus
 
 - type: entityTable
   id: UnknownShuttlesFreelanceTable
