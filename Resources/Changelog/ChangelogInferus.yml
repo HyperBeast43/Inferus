@@ -41,5 +41,12 @@ Entries:
   id: 1101
   time: '2026-09-08T23:52:08.000000+00:00'
   url: https://github.com/InferusSS14/Inferus/pull/11
+- author: HyperBeast43
+  changes:
+  - message: Added a new visitor shuttle for Bartenders.
+    type: Add
+  id: 901
+  time: '2026-09-11T17:46:11.000000+00:00'
+  url: https://github.com/InferusSS14/Inferus/pull/9
 Order: -2
 
