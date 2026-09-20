@@ -48,5 +48,15 @@ Entries:
   id: 901
   time: '2026-09-11T17:46:11.000000+00:00'
   url: https://github.com/InferusSS14/Inferus/pull/9
+- author: HyperBeast43
+  changes:
+  - message: Gas condensers and Space Cleaner / Fuel Dispensers now have plumbing
+      lines.
+    type: Tweak
+  - message: Plumbing Synthesizers can now make water, for 3 W/u.
+    type: Tweak
+  id: 1201
+  time: '2026-09-20T04:03:54.000000+00:00'
+  url: https://github.com/InferusSS14/Inferus/pull/12
 Order: -2
 
