@@ -564,6 +564,10 @@
         !type:PipeNode
         nodeGroupID: Pipe
         pipeDirection: South
+      outlet: #Inferus
+        !type:PlumbingNode
+        nodeGroupID: Plumbing
+        pipeDirection: North
   - type: Transform
     noRot: false
   - type: SolutionContainerManager
@@ -588,3 +592,19 @@
     degrees:
       - 0
   # Starlight end
+  # Inferus start
+  - type: PlumbingDevice
+    updateInterval: 2
+  #- type: PlumbingConnectorAppearance
+  #  offset: 0.09375D # DO NOT UNCOMMENT
+  # - type: SubFloorHide
+  #   blockInteractions: false
+  #   blockAmbience: false
+  #   visibleLayers:
+  #   - enum.SubfloorLayers.FirstLayer
+  - type: PlumbingOutlet
+    solutionName: tank
+    connectedOutlets: true
+    outletNames:
+    - outlet
+  # Inferus End
