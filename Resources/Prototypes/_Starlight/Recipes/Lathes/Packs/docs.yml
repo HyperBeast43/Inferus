@@ -58,8 +58,8 @@
   # Communications
   - PrintedDocumentCentCommCommunicationRecipe
   # Inferus start
-  - PrintedDocumentPhallusInspectionRecord
-  - PrintedDocumentYoniInspectionRecord
+  - PrintedDocumentPhallusInspectionRecordRecipe
+  - PrintedDocumentYoniInspectionRecordRecipe
   # Inferus end
 
 #- type: latheRecipePack

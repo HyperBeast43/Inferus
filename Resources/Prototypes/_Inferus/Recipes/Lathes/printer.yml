@@ -2,7 +2,7 @@
   id: PrintedDocumentPhallusInspectionRecordRecipe
   result: PrintedDocumentPhallusInspectionRecord
   categories:
-    - Permissions
+    - Reports
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -12,7 +12,7 @@
   id: PrintedDocumentYoniInspectionRecordRecipe
   result: PrintedDocumentYoniInspectionRecord
   categories:
-    - Permissions
+    - Reports
   completetime: 2
   applyMaterialDiscount: false
   materials:
