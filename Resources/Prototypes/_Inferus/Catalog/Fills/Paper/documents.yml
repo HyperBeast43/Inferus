@@ -1,0 +1,17 @@
+- type: entity
+  parent: PrintedDocument
+  id: PrintedDocumentPhallusInspectionRecord
+  name: Phallus Inspection Record
+  categories: #[ HideSpawnMenu ]
+  components:
+    - type: Paper
+      content: doc-text-printer-phallus-inspection-record
+
+- type: entity
+  parent: PrintedDocument
+  id: PrintedDocumentYoniInspectionRecord
+  name: Yoni Inspection Record
+  categories: #[ HideSpawnMenu ]
+  components:
+    - type: Paper
+      content: doc-text-printer-yoni-inspection-record

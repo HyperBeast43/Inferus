@@ -1,0 +1,19 @@
+- type: latheRecipe
+  id: PrintedDocumentPhallusInspectionRecordRecipe
+  result: PrintedDocumentPhallusInspectionRecord
+  categories:
+    - Permissions
+  completetime: 2
+  applyMaterialDiscount: false
+  materials:
+    SheetPrinter: 100
+
+- type: latheRecipe
+  id: PrintedDocumentYoniInspectionRecordRecipe
+  result: PrintedDocumentYoniInspectionRecord
+  categories:
+    - Permissions
+  completetime: 2
+  applyMaterialDiscount: false
+  materials:
+    SheetPrinter: 100

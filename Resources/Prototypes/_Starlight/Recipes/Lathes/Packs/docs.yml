@@ -57,6 +57,10 @@
   - PrintedDocumentProductOrderRecipe
   # Communications
   - PrintedDocumentCentCommCommunicationRecipe
+  # Inferus start
+  - PrintedDocumentPhallusInspectionRecord
+  - PrintedDocumentYoniInspectionRecord
+  # Inferus end
 
 #- type: latheRecipePack
 #  id: StarlightDocsEmag
